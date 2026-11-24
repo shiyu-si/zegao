@@ -1,0 +1,39 @@
+{
+  "name": "dsh-zegao-ios",
+  "version": "0.1.0",
+  "buildId": "0.1.0-txt-fold-r5",
+  "target": {
+    "app": "Fish Pocket 1.2.1 (120)",
+    "engine": "0.2.2-rc.4",
+    "surface": "official web UI"
+  },
+  "changeScope": "TXT materials, collapsible bubbles and rounded toolbar; retain r4 input and r3 turn fixes",
+  "sourceSha256": {
+    "src/Fold.jsx": "dc500268ee16c143f36d59f621703e0cddcc59642f173e4429310cff521b07be",
+    "src/Icon.jsx": "f53be6d9e48daf556ccb76b093b666b1fd516bad7f9e73ffff3468a7e997acaa",
+    "src/Materials.jsx": "c8756a30b9a28e0ae23f60a67e77409cb9fc0e01d887a4d1af1b26f47db7fca5",
+    "src/UI.jsx": "aeeaecb8bb7b9764ae17bab9c49d7e68ed19912e3a7fdec9f101ccf9ef5ccd30",
+    "src/appearance.js": "bd14b0e4918bb9e37d6cabfcb68c539c5dac4f90f3942d2ca4e0e6016f74ddd6",
+    "src/assets.js": "6f25bb811a07adfa3c9ef6d3aab7e267b8628af8f0561c12ccc87bc4d7695166",
+    "src/client.jsx": "db20216f0ca5a61b4a5141ab5303bf21f5dd343aa1ded6b4964ad900f9acd3db",
+    "src/host.js": "4a2968e240df6cb0dbf8f7aa76613e65790dbf33df4a81470fa49916e9a32692",
+    "src/input-bridge.js": "bc04e6821a820374ba3e1429ac74b3dd95690b8f42629738551925670b998bb7",
+    "src/input-settings.js": "2577ca327d32d0c90479d6160fa71d6a959c1edc1c52512803ed38ba98178728",
+    "src/intent.js": "cd226147693cff31bd7af74606ac1bf8ec57691cdb28c17934ba6f3fd1a13dbf",
+    "src/model.js": "87e227f62a87f6884081aae2691c2b6e7dd2831584863c28e9d8dc7a10e7c23e",
+    "src/partial.js": "6c3118bfc7daa743e5546c6f3c4933b7cc2479591ffca4a7f99779c1c4e2525b",
+    "src/reading.js": "bd96985417aef36299927edb6672298f8cb8bb18396f08a9fda9b51d541e745b",
+    "src/state.js": "94e384c34ac833e9ed4e74f285b3291a5e8da3aea822b0a7799fcf63b5d72445",
+    "src/style.css": "e0b9c33c82f64a0476ca3386a21c1532ff19f0cedf9747d84a576b9b5c646bc9",
+    "src/txt-input.js": "7c540764764f682fb717c16e49add489070eb59b03835116bcfec10c85afdeaa",
+    "src/legacy/backup.js": "121f7034d192e2d090184872809f24c50bbf09cc5e16d0e21e7ed20e9ef126f6",
+    "src/legacy/core.js": "bddf1111feddc670dac6ff40ad2dce2a055e6ed92ea59c20e45904402a9acd20",
+    "src/legacy/summary.js": "4501f6e6322ac5665d5fec0d37ab85a732c8f4214c8dfe4a2bfe411bbf02c8e9",
+    "src/legacy/writing.js": "9cc95ae70b3923a8ce5fa0223ebd13a1b35cf7012e336a89a4bc5244a212167d"
+  },
+  "builtFiles": {
+    "index.js": "55864ccc147bfab0f13c57c2e5a096cbaac7ef64eb2a7e2249be837ad3a0c4c1",
+    "client.js": "91eefa53656d8f08bdfc5dfc42d803ab7eba66a9864ee51e48cd467e66bdd662"
+  },
+  "status": "local-checks-only-phone-acceptance-pending"
+}

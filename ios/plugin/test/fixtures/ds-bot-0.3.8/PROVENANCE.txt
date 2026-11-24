@@ -1,0 +1,4 @@
+Unmodified time-context.js and LICENSE from npm ds-bot@0.3.8.
+Upstream: https://github.com/Fei2411/DS-Bot
+License: Apache-2.0. Test-only fixture, not shipped in runtime TGZ.
+SHA-256 time-context.js: 117d3edacdebd494384445c80da4837df4583f5271cfe56f5a165ae5612cc1cd

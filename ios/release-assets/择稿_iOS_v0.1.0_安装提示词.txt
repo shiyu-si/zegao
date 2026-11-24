@@ -1,0 +1,19 @@
+择稿 iOS v0.1.0 · Fish Pocket 安装提示词
+
+先安装并初始化前置应用 Fish Pocket：
+https://apps.apple.com/cn/app/fish-pocket/id6830703602
+宿主开源项目：https://github.com/imsai-sh/fish-pocket
+
+使用方法：将 dsh-zegao-ios-0.1.0.tgz 作为附件提供给 Fish Pocket 内部 AI，并复制下面提示词发送。若下载的是手机安装ZIP，先解压ZIP取出TGZ；TGZ本身不解压。安装完成后在目标宿主的“探索 → 网页版”使用择稿。
+
+——复制以下内容——
+
+请安装我附带的择稿插件 dsh-zegao-ios-0.1.0.tgz。目标环境为 Fish Pocket 1.2.1（120）、DSH 0.2.2-rc.4，构建标记应为 0.1.0-txt-fold-r5。请先核对实际环境和附件，使用宿主正式插件管理机制，以 file: tarball 方式安装或更新并保留现有择稿数据。
+
+安装包 SHA-256 应为：57e55ce694dea529ffc5c9f5f85562280aac4488fe74356e6447b8fe11074ada。
+
+不要用解压目录 link 安装，不手工修改 profile、锁文件、Cordis 配置或覆盖 node_modules，不使用版本豁免，不自动卸载或删除数据。如果环境不匹配、同版本安装被跳过、正式机制要求卸载或迁移数据，请停止并向我说明。
+
+请按包内 lib/build-info.json 核对实际安装的 buildId 和 Host/Client 哈希，确认 Host active、/api/zegao-ios 路由及官方网页版的择稿工具入口。不能仅凭“版本0.1.0已安装”判断本构建已生效。需要正常重启时，先提醒我保存未发送草稿，再告诉我重启步骤。
+
+本轮只安装与检查，不发送写作消息、不调用模型验证功能、不修改真实稿件。完成后说明实际安装结果和如何进入“探索 → 网页版”打开择稿。
